@@ -1,0 +1,19 @@
+/*un comentario*/
+h1{
+	font-size: 40px;
+	color: red;
+}
+
+#titulo{						/*Se hace referencia a un id*/
+	/*background-color: black;*/
+	color: white;
+	text-shadow:5px 5px 5px #000000;
+}
+
+.colorRojo{						/*Se hace referencia a una clase*/
+	color: red;
+}
+
+.colorAmarillo{
+	color: yellow;
+}
