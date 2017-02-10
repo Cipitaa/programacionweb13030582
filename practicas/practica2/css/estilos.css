@@ -7,6 +7,7 @@ body{
 	font-size: 1em;
 	line-height: 1.4px;
 	font: 16px Helvetica;
+	font-family: 'Pangolin', cursive;
 }
 
 hr{
@@ -34,16 +35,20 @@ hr{
 .footer-container,
 .main aside{
 	border-top: 20px solid #e44d26;
+	font-family: 'Bahiana', cursive;
+	text-shadow:17px -10px 5px #000000;
 }
 
 .header-container,
 .footer-container, 
 .main aside{
 	background: #f16529;
+
 }
 
 .title{
 	color: white;
+	font-family: 'Bahiana', cursive;
 }
 
 nav ul{
@@ -60,6 +65,7 @@ nav a{
 	font-weight: bold;
 	color: white;
 	background: #e44d26;
+	font-family: 'Indie Flower', cursive;
 }
 
 nav a:hover,
@@ -98,6 +104,24 @@ nav a:hover{
 @media only screen and (min-width: 480px){
 	h1{
 		color: red;
+		font-family: 'Pangolin', cursive;
+		.classname {
+			-webkit-animation: cssAnimation 1.0441s 14 ease-out;
+			-moz-animation: cssAnimation 1.0441s 14 ease-out;
+			-o-animation: cssAnimation 1.0441s 14 ease-out;
+		}
+		@-webkit-keyframes cssAnimation {
+		from { -webkit-transform: rotate(4deg) scale(1) skew(1deg) translate(10px); }
+		to { -webkit-transform: rotate(4deg) scale(0.855) skew(6deg) translate(57px); }
+		}
+		@-moz-keyframes cssAnimation {
+		from { -moz-transform: rotate(4deg) scale(1) skew(1deg) translate(10px); }
+		to { -moz-transform: rotate(4deg) scale(0.855) skew(6deg) translate(57px); }
+		}
+		@-o-keyframes cssAnimation {
+		from { -o-transform: rotate(4deg) scale(1) skew(1deg) translate(10px); }
+		to { -o-transform: rotate(4deg) scale(0.855) skew(6deg) translate(57px); }
+		}	
 	}
 
 	nav a{
